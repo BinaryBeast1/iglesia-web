@@ -70,11 +70,13 @@ nav ul li a {
 }
 
 .hero {
-    background-color: #ffcc00;
+    background: url('/images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
     color: white;
     text-align: center;
     padding: 3rem 1rem;
 }
+
 
 .hero h1 {
     font-size: 3rem;
