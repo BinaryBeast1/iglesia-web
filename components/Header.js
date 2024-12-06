@@ -1,8 +1,10 @@
+// components/Header.js
 import Link from 'next/link';
 
 export default function Header() {
     return (
         <header>
+            <h1>Iglesia Web</h1>
             <nav>
                 <ul>
                     <li><Link href="/">Inicio</Link></li>
@@ -15,3 +17,4 @@ export default function Header() {
         </header>
     );
 }
+
